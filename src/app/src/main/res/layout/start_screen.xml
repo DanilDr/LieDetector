@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/choise_lang_top_padding"
+    android:orientation="vertical">
+
+
+    <view
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="ru.wildleaf.liedetectorprank.app.ACLineText"
+        android:text="@string/title_name"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/fontsize"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/startlogo"
+        android:layout_marginTop="@dimen/choise_lang_logo_margin"/>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="ru.wildleaf.liedetectorprank.app.ACLineText"
+        android:layout_gravity="bottom"
+        android:text="@string/company_name"
+        android:gravity="bottom|center_horizontal"
+        android:textColor="@color/text_color"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>

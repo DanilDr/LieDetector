@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41aa21f9c5d9ea9aab32c0b8e33d0c13364063a9">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\classes-ec3748625422055d68230f412e853002a910f21a.jar" />
+    </item>
+    <item
+        jar="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\classes-c662d146814b462372818c9af0eba99e7618f224.jar" />
+    </item>
+    <item
+        jar="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\classes-dca997bb097a41278bd321cd6632d4d92531b72b.jar" />
+    </item>
+    <item
+        jar="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\classes-498096064e6123bc718337463c56de13b129a903.jar" />
+    </item>
+    <item
+        jar="C:\Users\Данил\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-e46b907975ed8f3d7074ae00e595bea67f300651.jar" />
+    </item>
+    <item
+        jar="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\workspace\GitHub\LieDetector\src\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-c67dbe0f50b614e5ed8b0f61948d631abb125e88.jar" />
+    </item>
+
+</items>

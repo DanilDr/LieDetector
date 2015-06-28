@@ -1,0 +1,144 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/complete_padding">
+
+        <ru.wildleaf.liedetectorprank.app.ACLineText
+            android:id="@+id/completeTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/fontsize"
+            android:editable="false"
+            android:text="@string/human_on_this_picture_tells"/>
+
+        <ru.wildleaf.liedetectorprank.app.ACLineText
+            android:id="@+id/completeTrueOrLie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/fontsizebig"
+            android:editable="false"
+            android:text="@string/test_result_lie"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ru.wildleaf.liedetectorprank.app.ACLineText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/fontsizesmall"
+                android:editable="false"
+                android:text="@string/percentage"/>
+
+            <ru.wildleaf.liedetectorprank.app.ACLineText
+                android:id="@+id/completePercentageNum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/fontsizesmall"
+                android:editable="false"
+                android:text="@string/percentage_example"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/complete_elems_margin">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/complete_progressbar_height"
+                android:id="@+id/trueLieProgressBar"
+                android:max="100"
+                android:progress="30"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/trueliepercents"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/complete_elems_margin">
+
+            <RelativeLayout
+                android:id="@+id/buttonTryAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ru.wildleaf.liedetectorprank.app.ACLineText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/try_again"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/fontsizesmall"
+                    android:editable="false"
+                    android:background="@drawable/menu_background_bottom"
+                    android:padding="@dimen/complete_buttons_padding"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttonBackToMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+                <ru.wildleaf.liedetectorprank.app.ACLineText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back_to_menu"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/fontsizesmall"
+                    android:editable="false"
+                    android:background="@drawable/menu_background_bottom"
+                    android:padding="@dimen/complete_buttons_padding"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ads_height"
+        android:layout_gravity="center|bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="ca-app-pub-9065142596525064/9636819839"
+            ads:adSize="BANNER"/>
+    </FrameLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fontsize">45sp</dimen>
+    <dimen name="fontsizebig">70sp</dimen>
+    <dimen name="mainmenu_padding">2dp</dimen>
+    <dimen name="mainmenu_side_padding">40dp</dimen>
+    <dimen name="mainmenu_side_padding_pl_margin">42dp</dimen>
+    <dimen name="mainmenu_elements_margin">5dp</dimen>
+    <dimen name="begintest_camera_height">250dp</dimen>
+    <dimen name="begintest_canvas_height">250dp</dimen>
+    <dimen name="mainmenu_button_width">140dp</dimen>
+    <dimen name="mainmenu_button_height">140dp</dimen>
+    <dimen name="mainmenu_bottom_menu_icon_height">55dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:paddingTop="@dimen/choise_lang_top_padding"
+    android:paddingBottom="@dimen/choise_lang_bottom_padding" >
+
+    <ru.wildleaf.liedetectorprank.app.ACLineText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/choiselanguage"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/fontsize"
+        android:editable="false"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:layout_width="@dimen/chiose_lang_flag_width"
+        android:layout_height="match_parent"
+        android:id="@+id/choiseLangRus"
+        android:background="@drawable/ruslang"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/choise_lang_flag_margin" />
+
+    <ImageButton
+        android:layout_width="@dimen/chiose_lang_flag_width"
+        android:layout_height="match_parent"
+        android:id="@+id/choiseLangEng"
+        android:layout_weight="1"
+        android:background="@drawable/enlang"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/choise_lang_flag_margin" />
+
+    <ImageButton
+        android:layout_width="@dimen/chiose_lang_flag_width"
+        android:layout_height="match_parent"
+        android:id="@+id/choiseLangEsp"
+        android:background="@drawable/spalang"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/choise_lang_flag_margin" />
+
+    <ImageButton
+        android:layout_width="@dimen/chiose_lang_flag_width"
+        android:layout_height="match_parent"
+        android:id="@+id/choiseLangKor"
+        android:background="@drawable/kolang"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/choise_lang_flag_margin" />
+</LinearLayout>

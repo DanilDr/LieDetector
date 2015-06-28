@@ -1,0 +1,170 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/choise_lang_top_padding">
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="ru.wildleaf.liedetectorprank.app.ACLineText"
+            android:text="@string/title_choice_type_of_test"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/fontsize"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/mainmenu_elements_margin" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/mainmenu_button_width"
+                android:layout_height="@dimen/mainmenu_button_height"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/mainmenu_side_padding">
+
+                <ImageButton
+                    android:layout_width="@dimen/mainmenu_button_width"
+                    android:layout_height="@dimen/mainmenu_button_height"
+                    android:id="@+id/main_menu_voice"
+                    android:src="@drawable/menu_voice"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_margin="@dimen/mainmenu_padding"
+                    android:onClick="startTest" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/mainmenu_button_width"
+                android:layout_height="@dimen/mainmenu_button_height"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/mainmenu_side_padding">
+
+                <ImageButton
+                    android:layout_width="@dimen/mainmenu_button_width"
+                    android:layout_height="@dimen/mainmenu_button_height"
+                    android:id="@+id/main_menu_photo"
+                    android:src="@drawable/menu_photo"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_margin="@dimen/mainmenu_padding"
+                    android:onClick="startTest" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/mainmenu_button_width"
+                android:layout_height="@dimen/mainmenu_button_height"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/mainmenu_side_padding">
+                <ImageButton
+                    android:layout_width="@dimen/mainmenu_button_width"
+                    android:layout_height="@dimen/mainmenu_button_height"
+                    android:id="@+id/main_menu_handprint"
+                    android:src="@drawable/menu_handprint"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_margin="@dimen/mainmenu_padding"
+                    android:onClick="startTest" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/mainmenu_button_width"
+                android:layout_height="@dimen/mainmenu_button_height"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/mainmenu_side_padding">
+
+                <ImageButton
+                    android:layout_width="@dimen/mainmenu_button_width"
+                    android:layout_height="@dimen/mainmenu_button_height"
+                    android:id="@+id/main_menu_fingerprint"
+                    android:src="@drawable/menu_fingerprint"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_margin="@dimen/mainmenu_padding"
+                    android:onClick="startTest" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainmenu_bottom_menu_icon_height"
+            android:layout_marginLeft="@dimen/mainmenu_side_padding_pl_margin"
+            android:layout_marginRight="@dimen/mainmenu_side_padding_pl_margin"
+            android:layout_marginTop="@dimen/mainmenu_bottom_menu_margin"
+            android:background="@drawable/menu_background_bottom">
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_menu_sound"
+                android:background="@drawable/sound_background"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/mainmenu_bottom_menu_icon_margin"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_menu_mail"
+                android:src="@drawable/menu_mail"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/mainmenu_bottom_menu_icon_margin" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_menu_like"
+                android:src="@drawable/menu_like"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/mainmenu_bottom_menu_icon_margin" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_menu_settings"
+                android:src="@drawable/menu_settings"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/mainmenu_bottom_menu_icon_margin" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ads_height"
+        android:layout_gravity="center|bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="ca-app-pub-9065142596525064/9636819839"
+            ads:adSize="BANNER"/>
+    </FrameLayout>
+
+</FrameLayout>

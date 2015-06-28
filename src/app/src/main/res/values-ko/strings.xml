@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">감지기 거짓말(장난)</string>
+    <string name="action_settings">옵션</string>
+    <string name="title_name">감지기\n거짓말(장난)</string>
+    <string name="choiselanguage">언어를\n선택하세요</string>
+    <string name="title_choice_type_of_test">테스트의 유형을 선택하세요</string>
+    <string name="begintest_title_voice">버튼을\n누르 음성테스트\n시작하세요</string>
+    <string name="start">스타트</string>
+    <string name="finish">끝</string>
+    <string name="begintest_title_photo">사진 촬영하세요</string>
+    <string name="checkphoto">점검</string>
+    <string name="begintest_title_handprint">텍스트를 입력 하세요</string>
+    <string name="begintest_title_fingerprint">스캐너에 손가락을 유지하세요</string>
+    <string name="processing">결과의 처리</string>
+    <string name="until_we_done">기다리세요</string>
+    <string name="human_on_this_picture_tells"></string>
+    <string name="the_man_whose_voice_recorded_tells"></string>
+    <string name="the_man_who_wrote_the_text_tells"></string>
+    <string name="the_man_who_scanned_fingerprint_tells"></string>
+    <string name="test_result_true">진실</string>
+    <string name="test_result_lie">거짓말</string>
+    <string name="percentage">백분율:</string>
+    <string name="try_again">다시 시도하세요</string>
+    <string name="back_to_menu">메뉴로 돌아가세요</string>
+    <string name="write">쓰기</string>
+    <string name="sound_off">소리 끄기</string>
+    <string name="sound_on">소리 활성화</string>
+    <string name="options">옵션</string>
+    <string name="notifications">알림</string>
+    <string name="on">켜</string>
+    <string name="off">끄</string>
+    <string name="choise_language">언어를 선택하세요</string>
+    <string name="checkyourfriend">친구를 체크하세요</string>
+    <string name="license_title">«Attribution-NonCommercial-ShareAlike» 4.0 (CC BY-NC-SA 4.0)</string>
+    <string name="license_url">https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru</string>
+    <string name="license_word">라이센스</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/begintest_voice_mic_width"
+    android:layout_height="@dimen/begintest_voice_mic_height"
+    android:layout_marginTop="@dimen/begintest_voice_elements_margin_top"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/voiceLevelRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/begintest_voice_progress_margin">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/voiceLevel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="32768"
+            android:progressDrawable="@drawable/voicevolume"
+            android:progress="15000" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mic_logo_back"
+        android:layout_gravity="center_horizontal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_background_bottom">
+
+    </FrameLayout>
+
+</FrameLayout>

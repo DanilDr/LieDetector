@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Детектор лжи (симулятор)</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_name">Детектор\nлжи (симулятор)</string>
+    <string name="choiselanguage">Выберите\nязык</string>
+    <string name="title_choice_type_of_test">Выберите тип теста</string>
+    <string name="begintest_title_voice">Нажмите старт,\nчтобы начать\nголосовой тест</string>
+    <string name="start">Старт</string>
+    <string name="finish">Закончить</string>
+    <string name="begintest_title_photo">Сфотографируйте испытуемого</string>
+    <string name="checkphoto">Проверка</string>
+    <string name="begintest_title_handprint">Введите текст для проверки</string>
+    <string name="begintest_title_fingerprint">Держите палец на сканере</string>
+    <string name="processing">Обработка</string>
+    <string name="until_we_done">Подождите несколько секунд</string>
+    <string name="human_on_this_picture_tells">Человек на этой фоторгафии говорит</string>
+    <string name="the_man_whose_voice_recorded_tells">Человек, голос которого записан, говорит</string>
+    <string name="the_man_who_wrote_the_text_tells">Человек, который это написал, говорит</string>
+    <string name="the_man_who_scanned_fingerprint_tells">Обладатель данного отпечатка пальца говорит</string>
+    <string name="test_result_true">Правду</string>
+    <string name="test_result_lie">Ложь</string>
+    <string name="percentage">Процент:</string>
+    <string name="try_again">Заново</string>
+    <string name="back_to_menu">В меню</string>
+    <string name="write">Написать</string>
+    <string name="sound_off">Звук выключен</string>
+    <string name="sound_on">Звук включен</string>
+    <string name="options">Настройки</string>
+    <string name="notifications">Уведомления</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="choise_language">Выбрать язык</string>
+    <string name="checkyourfriend">Проверь своего друга</string>
+    <string name="license_title">«Attribution-NonCommercial-ShareAlike» («Атрибуция — Некоммерческое использование — На тех же условиях») 4.0 Всемирная (CC BY-NC-SA 4.0)</string>
+    <string name="license_url">https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru</string>
+    <string name="license_word">Лицензия</string>
+
+</resources>

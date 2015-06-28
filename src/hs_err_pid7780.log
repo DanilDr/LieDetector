@@ -1,0 +1,147 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (virtualspace.cpp:114), pid=7780, tid=4300
+#  fatal error: os::release_memory failed
+#
+# JRE version:  (7.0_55-b13) (build )
+# Java VM: Java HotSpot(TM) Client VM (24.55-b03 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02eac400):  JavaThread "Unknown thread" [_thread_in_vm, id=4300, stack(0x02eb0000,0x02f00000)]
+
+Stack: [0x02eb0000,0x02f00000],  sp=0x02eff704,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x18e051]
+V  [jvm.dll+0x187dd6]
+V  [jvm.dll+0x16416c]
+V  [jvm.dll+0x16461b]
+V  [jvm.dll+0x89a66]
+V  [jvm.dll+0x87546]
+V  [jvm.dll+0x86262]
+V  [jvm.dll+0x90603]
+V  [jvm.dll+0x13db04]
+V  [jvm.dll+0x1606ac]
+V  [jvm.dll+0xc8e1f]
+C  [java.exe+0x13c1]
+C  [java.exe+0x1e33]
+C  [java.exe+0xa591]
+C  [java.exe+0xa61b]
+C  [KERNEL32.DLL+0x1919f]
+C  [ntdll.dll+0x50bbb]
+C  [ntdll.dll+0x50b91]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x02eac400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4300, stack(0x02eb0000,0x02f00000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00af0000 - 0x00b1f000 	C:\Program Files (x86)\Java\jdk1.7.0_55\bin\java.exe
+0x77140000 - 0x772a7000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76c10000 - 0x76d50000 	C:\Windows\SYSTEM32\KERNEL32.DLL
+0x75680000 - 0x75750000 	C:\Windows\SYSTEM32\KERNELBASE.dll
+0x6f8c0000 - 0x6f959000 	C:\Windows\system32\apphelp.dll
+0x6f400000 - 0x6f659000 	C:\Windows\AppPatch\AcGenral.DLL
+0x75400000 - 0x754be000 	C:\Windows\SYSTEM32\msvcrt.dll
+0x74c60000 - 0x74c9e000 	C:\Windows\SYSTEM32\sechost.dll
+0x74b40000 - 0x74b5d000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x76d60000 - 0x76da1000 	C:\Windows\SYSTEM32\SHLWAPI.dll
+0x70dc0000 - 0x70e9b000 	C:\Windows\SYSTEM32\UxTheme.dll
+0x75290000 - 0x753dc000 	C:\Windows\SYSTEM32\USER32.dll
+0x75170000 - 0x75277000 	C:\Windows\SYSTEM32\GDI32.dll
+0x73fe0000 - 0x74000000 	C:\Windows\SYSTEM32\WINMM.dll
+0x6f770000 - 0x6f782000 	C:\Windows\SYSTEM32\samcli.dll
+0x75060000 - 0x7516c000 	C:\Windows\SYSTEM32\ole32.dll
+0x74d30000 - 0x74dc5000 	C:\Windows\SYSTEM32\OLEAUT32.dll
+0x6f750000 - 0x6f765000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x73c50000 - 0x73c58000 	C:\Windows\SYSTEM32\VERSION.dll
+0x75a50000 - 0x76c07000 	C:\Windows\SYSTEM32\SHELL32.dll
+0x73a50000 - 0x73a69000 	C:\Windows\SYSTEM32\USERENV.dll
+0x6f850000 - 0x6f868000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x70f10000 - 0x7105a000 	C:\Windows\SYSTEM32\urlmon.dll
+0x74e10000 - 0x74e88000 	C:\Windows\SYSTEM32\ADVAPI32.dll
+0x70ea0000 - 0x70efe000 	C:\Windows\SYSTEM32\WINSPOOL.DRV
+0x700e0000 - 0x700f4000 	C:\Windows\SYSTEM32\MPR.dll
+0x74b60000 - 0x74c10000 	C:\Windows\SYSTEM32\RPCRT4.dll
+0x74b30000 - 0x74b39000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x75900000 - 0x75a4e000 	C:\Windows\SYSTEM32\combase.dll
+0x73c30000 - 0x73c50000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x73b50000 - 0x73b5e000 	C:\Windows\SYSTEM32\profapi.dll
+0x709e0000 - 0x70c12000 	C:\Windows\SYSTEM32\iertutil.dll
+0x70800000 - 0x709d5000 	C:\Windows\SYSTEM32\WININET.dll
+0x74ad0000 - 0x74b22000 	C:\Windows\SYSTEM32\bcryptPrimitives.dll
+0x74e90000 - 0x74eca000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x73c10000 - 0x73c2f000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x73b60000 - 0x73bd6000 	C:\Windows\SYSTEM32\SHCORE.DLL
+0x758c0000 - 0x758e5000 	C:\Windows\system32\IMM32.DLL
+0x76db0000 - 0x76ea7000 	C:\Windows\SYSTEM32\MSCTF.dll
+0x73be0000 - 0x73c09000 	C:\Windows\SYSTEM32\nvinit.dll
+0x0f000000 - 0x0f006000 	C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\_etoured.dll
+0x6f890000 - 0x6f8bc000 	C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll
+0x76ec0000 - 0x7706d000 	C:\Windows\SYSTEM32\SETUPAPI.dll
+0x6f870000 - 0x6f890000 	C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll
+0x6f9b0000 - 0x6fb96000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\COMCTL32.dll
+0x5b3f0000 - 0x5b4af000 	C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin\msvcr100.dll
+0x5b070000 - 0x5b3f0000 	C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin\client\jvm.dll
+0x707d0000 - 0x707d8000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x758f0000 - 0x758f6000 	C:\Windows\SYSTEM32\PSAPI.DLL
+0x74c10000 - 0x74c5d000 	C:\Windows\SYSTEM32\WS2_32.dll
+0x754c0000 - 0x754c7000 	C:\Windows\SYSTEM32\NSI.dll
+0x6fd60000 - 0x6fd6c000 	C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin\verify.dll
+0x6fd40000 - 0x6fd60000 	C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin\java.dll
+0x5b050000 - 0x5b063000 	C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin\zip.dll
+0x70630000 - 0x70778000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+java_command: <unknown>
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\app\Данил\product\11.2.0\client_1;C:\Python34\Lib\site-packages\PyQt4;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\LENOVO FINGERPRINT READER\;C:\PROGRAM FILES\LENOVO FINGERPRINT READER\X86\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Subversion\bin;C:\android-sdk-windows\platform-tools;C:\MinGW\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;C:\Python34;C:\Program Files\AndroidStudio\sdk\build-tools\android-4.4W;C:\Program Files (x86)\instantclient_12_1;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Program Files\PostgreSQL\9.3\bin;C:\Program Files (x86)\Git\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Users\Данил\AppData\Roaming\npm
+USERNAME=Данил
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 6125744k(1266984k free), swap 6125744k(394604k free)
+
+vm_info: Java HotSpot(TM) Client VM (24.55-b03) for windows-x86 JRE (1.7.0_55-b13), built on Mar 17 2014 20:01:11 by "java_re" with unknown MS VC++:1600
+
+time: Tue Dec 16 11:04:45 2014
+elapsed time: 0 seconds
+

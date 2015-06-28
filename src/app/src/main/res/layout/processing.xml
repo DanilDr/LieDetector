@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingTop="@dimen/choise_lang_top_padding"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ru.wildleaf.liedetectorprank.app.ACLineText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/processing"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/fontsize"
+        android:editable="false" />
+
+    <ImageView
+        android:id="@+id/processingImage"
+        android:layout_width="@dimen/processing_image_size"
+        android:layout_height="@dimen/processing_image_size"
+        android:layout_marginTop="@dimen/processing_image_margin"
+        android:layout_marginBottom="@dimen/processing_image_margin"
+        android:src="@drawable/processing"/>
+
+    <ru.wildleaf.liedetectorprank.app.ACLineText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/until_we_done"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/fontsize"
+        android:editable="false" />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="@dimen/settings_padding">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ru.wildleaf.liedetectorprank.app.ACLineText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/options"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/fontsize"
+            android:editable="false"
+            android:layout_marginTop="@dimen/settings_margin_elements"/>
+
+        <LinearLayout
+            android:id="@+id/notificationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/settings_margin_elements">
+
+            <ru.wildleaf.liedetectorprank.app.ACLineText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notifications"
+                android:textAllCaps="true"
+                android:gravity="left"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/fontsizesmall"
+                android:editable="false"
+                android:layout_weight="1"/>
+
+            <ru.wildleaf.liedetectorprank.app.ACLineText
+                android:id="@+id/notificationStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/off"
+                android:textAllCaps="true"
+                android:gravity="right"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/fontsizesmall"
+                android:editable="false" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/choiseLanguageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_margin_elements">
+            <ru.wildleaf.liedetectorprank.app.ACLineText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choise_language"
+                android:textAllCaps="true"
+                android:gravity="left"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/fontsizesmall"
+                android:editable="false" />
+
+        </RelativeLayout>
+
+    <ru.wildleaf.liedetectorprank.app.ACLineText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/license_word"
+        android:textAllCaps="true"
+        android:gravity="right"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/license_textsize_title"
+        android:editable="false"
+        android:layout_marginTop="@dimen/settings_margin_elements"/>
+
+
+        <ru.wildleaf.liedetectorprank.app.ACLineText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/license_title"
+        android:textColor="@color/text_color"/>
+
+    <ImageView
+        android:id="@+id/licenseLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/license_logo"
+        android:layout_marginTop="@dimen/settings_margin_elements"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

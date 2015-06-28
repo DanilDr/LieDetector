@@ -1,0 +1,65 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/choise_lang_top_padding"
+        android:gravity="center_horizontal">
+
+        <ru.wildleaf.liedetectorprank.app.ACLineText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/begintest_title_fingerprint"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/fontsize"
+            android:editable="false" />
+
+        <RelativeLayout
+            android:id="@+id/fingerprintArea"
+            android:layout_width="@dimen/begintest_finger_logosize"
+            android:layout_height="@dimen/begintest_finger_logosize"
+            android:layout_marginTop="@dimen/begintest_camera_margintop"
+            android:background="@drawable/menu_background_bottom">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:id="@+id/fingetprintProgress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="100"
+                android:progressDrawable="@drawable/fingerprintprog"
+                android:progress="0" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fingerprint_logo"
+                android:layout_margin="@dimen/begintest_finger_logomargin" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ads_height"
+        android:layout_gravity="center|bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="ca-app-pub-9065142596525064/9636819839"
+            ads:adSize="BANNER"/>
+    </FrameLayout>
+
+</FrameLayout>
+

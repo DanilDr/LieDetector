@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fontsize">85sp</dimen>
+    <dimen name="fontsizebig">70sp</dimen>
+    <dimen name="fontsizesmall">55sp</dimen>
+    <dimen name="mainmenu_padding">2dp</dimen>
+    <dimen name="mainmenu_side_padding">20dp</dimen>
+    <dimen name="mainmenu_side_padding_pl_margin">22dp</dimen>
+    <dimen name="mainmenu_elements_margin">2dp</dimen>
+    <dimen name="begintest_camera_height">550dp</dimen>
+    <dimen name="begintest_canvas_height">550dp</dimen>
+    <dimen name="begintest_finger_logosize">350dp</dimen>
+    <dimen name="begintest_voice_mic_height">400dp</dimen>
+    <dimen name="begintest_voice_mic_width">302dp</dimen>
+    <dimen name="chiose_lang_flag_width">250dp</dimen>
+    <dimen name="complete_progressbar_height">80dp</dimen>
+    <dimen name="complete_elems_margin">40dp</dimen>
+    <dimen name="mainmenu_button_width">368dp</dimen>
+    <dimen name="mainmenu_button_height">368dp</dimen>
+    <dimen name="mainmenu_bottom_menu_icon_height">150dp</dimen>
+    <dimen name="choise_lang_top_padding">5dp</dimen>
+</resources>

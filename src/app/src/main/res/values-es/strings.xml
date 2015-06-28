@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Detector de mentiras (broma)</string>
+    <string name="action_settings">Settings</string>
+    <string name="choiselanguage">Seleccione\nun idioma</string>
+    <string name="title_name">Detector\nde mentiras (broma)</string>
+    <string name="title_choice_type_of_test">Tipo de eleccion de la prueba</string>
+    <string name="begintest_title_voice">Pulse Iniciar\npara iniciar \nla prueba de voz</string>
+    <string name="start">Iniciar</string>
+    <string name="finish">Acabado</string>
+    <string name="begintest_title_photo">Tome una fotografia de la testee</string>
+    <string name="checkphoto">Comprobar</string>
+    <string name="begintest_title_handprint">Escriba el texto y comprobar que</string>
+    <string name="begintest_title_fingerprint">Mantenga el dedo sobre el escaner</string>
+    <string name="processing">Tratamiento</string>
+    <string name="until_we_done">Espere unos segundos hasta que hemos hecho</string>
+    <string name="human_on_this_picture_tells">Humano en esta foto cuenta</string>
+    <string name="the_man_whose_voice_recorded_tells">El hombre cuya voz grabada dice</string>
+    <string name="the_man_who_wrote_the_text_tells">El hombre que escribio el texto dice</string>
+    <string name="the_man_who_scanned_fingerprint_tells">El hombre que escanea la huella dactilar dice</string>
+    <string name="test_result_true">Verdadero</string>
+    <string name="test_result_lie">Mentira</string>
+    <string name="percentage">Porcentaje:</string>
+    <string name="try_again">Intentalo\nde nuevo</string>
+    <string name="back_to_menu">Regresar\nal menu</string>
+    <string name="write">Escribir</string>
+    <string name="sound_off">En off</string>
+    <string name="sound_on">Sonido activado</string>
+    <string name="options">Opciones</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="on">En</string>
+    <string name="off">Apagado</string>
+    <string name="choise_language">Idioma Eleccion</string>
+    <string name="checkyourfriend">Revise su amigo</string>
+    <string name="license_title">Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</string>
+    <string name="license_url">https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES</string>
+    <string name="license_word">Licencia</string>
+
+</resources>
